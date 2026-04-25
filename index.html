@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta property="og:title" content="Upama | Profile" />
+  <meta property="og:image" content="https://upamainbits.github.io/images/preview.png" />
+  <meta property="og:url" content="https://upamainbits.github.io/" />
+  <meta property="og:type" content="website" />
+
+  <title>Upama | Profile </title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <header id="top-strip" class="top-strip">
+    <div class="nav-wrapper">
+    <nav class="navbar" aria-label="Main navigation">
+      <ul class="nav-links">
+       <li><a href="#top">Home</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#leadership-involvement">Leadership</a></li>
+<li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <div class="page-shell">
+    <main class="inner-shell">
+      <section id="home" class="hero">
+        <div class="hero-text">
+          <p class="intro-tag">• Organized • Detail-Oriented • People-Focused</p>
+          <h1>Hi, I’m Upama!</h1>
+
+          <p class="hero-description">
+            I’m a Computer Science graduate with a focus on Human-Computer Interaction and a minor in Mathematics. I’m highly organized and detail-oriented, with experience working across various campus roles, academic research, and student organizations.
+          </p>
+
+    <p class="hero-description">
+  I’m currently seeking opportunities across operations, support, or team-focused roles, where I can support people, and help projects move forward while continuing to learn and grow.
+</p>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/profile.jpg" alt="Portrait of Upama" />
+        </div>
+      </section>
+
+      <section id="education" class="content-section">
+        <div class="section-card">
+          <h2>Education</h2>
+
+          <div class="education-grid">
+            <div class="education-item">
+              <h3>Master of Science in Computer Science</h3>
+              <p>Human-Computer Interaction Focus</p>
+              <a href="https://www.boisestate.edu" target="_blank" rel="noopener noreferrer">Boise State University (2025)</a>
+            </div>
+
+            <div class="education-item">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p>Minor in Mathematics</p>
+              <a href="https://www.minotstateu.edu" target="_blank" rel="noopener noreferrer">Minot State University (2023)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section id="experience" class="content-section">
+  <div class="section-card projects-card">
+    <h2>Experience</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card" onclick="openModal('catchafireModal')">
+        <h3>Catchafire Volunteer Work</h3>
+        <p class="meta-line">
+          <span class="school">Catchafire</span>
+          <span class="date">Jan 2026 – Present</span>
+        </p>
+        <p>
+          Delivered technical solutions for nonprofits, including website updates, system design, and workflow improvements.
+        </p>
+      </div>
+
+      <div class="project-card" onclick="openModal('researchModal')">
+        <h3>Graduate Research Assistant</h3>
+        <p class="meta-line">
+          <span class="school">Boise State University</span>
+          <span class="date">Jan 2024 – Dec 2025</span>
+        </p>
+        <p>
+          Conducted child-computer interaction research, usability evaluation, interviews, and XR-related research work.
+        </p>
+      </div>
+
+           <div class="project-card" onclick="openModal('teachingModal')">
+        <h3>Teaching & Mentoring</h3>
+        <p class="meta-line">
+          <span class="school">Boise State University | Minot State University</span>
+          <span class="date">2022–2025</span>
+        </p>
+        <p>
+          Mentored students, supported instruction, led study sessions, and provided tutoring in research, statistics, and mathematics.
+        </p>
+      </div>
+
+      <div class="project-card" onclick="openModal('campusWorkModal')">
+        <h3>On-Campus Jobs</h3>
+        <p class="meta-line">
+          <span class="school">Minot State University | Portland Community College</span>
+          <span class="date">2019–2023</span>
+        </p>
+        <p>
+          Supported student services, tutoring, mentoring, front-desk work, athletics, and campus operations.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="leadership-involvement" class="content-section">
+  <div class="section-card projects-card">
+    <h2>Leadership & Community Involvement</h2>
+
+    <div class="project-grid">
+
+ 
+
+      <div class="project-card" onclick="openModal('leadershipModal')">
+        <h3>Leadership</h3>
+        <p class="meta-line">
+          <span class="school">Boise State University | Minot State University</span>
+          <span class="date">2021–2025</span>
+        </p>
+        <p>
+          Leadership experience through student organizations and campus initiatives
+      </div>
+
+      <div class="project-card" onclick="openModal('extraModal')">
+        <h3>Community Activities</h3>
+        <p class="meta-line">
+          <span class="school">Campus Groups | Community Organizations </span>
+          <span class="date">2019–2025</span>
+        </p>
+        <p>
+          Participated in cultural events, fitness communities, design support, and community engagement.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <section id="contact" class="content-section">
+        <div class="section-card contact-card">
+ <h2>Contact</h2>
+
+<p class="contact-intro">
+  I’m currently seeking opportunities and would love to connect! 👋
+</p>
+
+
+
+  <div class="contact-item">
+    📧 Email me at <a href="mailto:upamatm@gmail.com"> upamatm@gmail.com</a>
+ 
+</div>
+        </div>
+      </section>
+
+      <section id="highlights" class="content-section">
+        <div class="section-card achievements-card">
+          <h2>Highlights</h2>
+
+          <div class="achievement-slider">
+            <div class="slides">
+              <div class="slide active">
+                <img src="images/achievement1.jpg" alt="Graduating Student Leader recognition" />
+                <p class="slide-text">Recognized as a Graduating Student Leader for leadership at Boise State University.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement2.jpg" alt="Research poster presentation" />
+                <p class="slide-text">Research poster presentation on XR usability and child-computer interaction.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement3.jpg" alt="Graduate Student Showcase award" />
+                <p class="slide-text">Awarded Department Recognition at BSU Graduate Student Showcase.</p>
+                <a class="achievement-link" href="https://www.boisestate.edu/graduatecollege/showcase/2024-graduate-student-showcase-awards/" target="_blank" rel="noopener noreferrer">View official award listing →</a>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement9.jpg" alt="Graduate Student Showcase certificate" />
+                <p class="slide-text">BSU Graduate Student Showcase Certificate.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement4.jpg" alt="Master’s thesis presentation" />
+                <p class="slide-text">Presented my Master’s thesis on redesigning EULAs for children in XR.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement5.jpg" alt="CS commencement speaker" />
+                <p class="slide-text">Selected as a Graduate Speaker at the CS Commencement Ceremony, BSU.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement6.jpg" alt="Nepali Night hosting" />
+                <p class="slide-text">Hosted Nepali Night at BSU, engaging a diverse audience.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement7.jpg" alt="ASC Student of the Month" />
+                <p class="slide-text">Recognized as ASC Student of the Month at MSU for academic contribution.</p>
+                <a class="achievement-link" href="https://www.minotstateu.edu/asc/student-of-the-month.shtml" target="_blank" rel="noopener noreferrer">View official listing →</a>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement10.jpg" alt="ASC Student of the Month certificate" />
+                <p class="slide-text">Academic Student Center Student of the Month Certificate.</p>
+              </div>
+
+              <div class="slide">
+                <img src="images/achievement8.jpg" alt="MSU feature story" />
+                <p class="slide-text">Featured by MSU for leadership and impact in campus engagement through MSU Life.</p>
+                <a class="achievement-link" href="https://www.minotstateu.edu/pio/news/2021/11/MSU-Life-brought-Thapa-Magar-to-campus.shtml" target="_blank" rel="noopener noreferrer">Read full story →</a>
+              </div>
+            </div>
+
+         <div class="slider-controls">
+  <button class="slider-btn prev" type="button" onclick="prevSlide()">‹</button>
+  <button class="pause-btn" type="button" onclick="toggleSliderPause()">Pause</button>
+  <button class="slider-btn next" type="button" onclick="nextSlide()">›</button>
+  
+</div>
+
+            <div class="slider-dots" aria-label="Slide dots"></div>
+          </div>
+        </div>
+      </section>
+
+       <section id="contact" class="content-section">
+      
+
+<div class="github-cta">
+  <p>Explore my technical work at 
+  <a href="https://github.com/upamaInBits" target="_blank"> GitHub </a> </p>
+</div>
+      </section>
+
+
+
+    </main>
+  </div>
+
+  <div id="catchafireModal" class="modal-overlay">
+    <div class="modal-card catchafire-modal-card">
+      <button class="close-btn" onclick="closeModal('catchafireModal')" type="button">&times;</button>
+      <h2>Catchafire Volunteer Projects</h2>
+      <p class="tech-stack">• WordPress • HTML/CSS • System Design • Technical Consulting</p>
+
+      <img src="images/impact-badge.jpg" class="project-image catchafire-hero-image" alt="Catchafire impact badge" />
+
+      <p class="project-description">
+        Supported multiple nonprofit organizations through Catchafire by delivering web solutions, system improvements, and technical guidance to enhance operational efficiency and digital presence.
+      </p>
+
+      <div class="catchafire-grid">
+        <div class="info-box">
+          <h3>Key Contributions</h3>
+          <ul>
+            <li>Website updates and WordPress improvements</li>
+            <li>Website migration and hosting guidance</li>
+            <li>Technical systems review and optimization</li>
+            <li>AI and data privacy consultation</li>
+            <li>CRM setup support</li>
+            <li>File migration support</li>
+          </ul>
+        </div>
+
+        <div class="info-box">
+          <h3>Impact</h3>
+          <p>Delivered solutions that improved workflow efficiency, reduced operational friction, and supported nonprofits in making better use of their technical systems.</p>
+          <p class="impact-highlight">💰 Contributed to $15,500+ in cost savings across projects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="researchModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" onclick="closeModal('researchModal')" type="button">&times;</button>
+      <h2>Graduate Research Assistant</h2>
+
+      <p class="research-intro">
+        As a Graduate Research Assistant at <strong>Boise State University</strong>, I worked with <strong><a class="clean-link" href="https://www.boisestate.edu/coen-cs/people/faculty/jerry-alan-fails/" target="_blank" rel="noopener noreferrer">Dr. Jerry Alan Fails</a></strong> on Human-Computer Interaction research with a focus on designing technology with and for children.
+      </p>
+
+      <div class="research-block">
+        <h3>What I Did</h3>
+        <ul>
+          <li>Designed and facilitated participatory design sessions with children aged 6-11.</li>
+          <li>Conducted interviews with parents to understand children’s technology use and safety concerns.</li>
+          <li>Evaluated usability and cognitive workload across VR, AR, and web platforms.</li>
+          <li>Developed interactive XR prototypes using Unity and Meta Quest.</li>
+          <li>Synthesized research findings into actionable design guidelines.</li>
+        </ul>
+      </div>
+
+      <div class="research-block">
+        <h3>Contributions <a class="github-link" href="https://scholar.google.com/citations?user=bAJLa9QAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="View my publications on Google Scholar">↗</a></h3>
+        <ul>
+          <li>Contributed to peer-reviewed publications at ACM Interaction Design and Children (IDC) 2024 and 2025.</li>
+          <li>Completed my master’s thesis on designing transparent, child-understandable EULAs for XR applications.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="teachingModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" onclick="closeModal('teachingModal')" type="button">&times;</button>
+      <h2>Teaching & Mentoring</h2>
+
+      <div class="experience-modal">
+        <div class="exp-block">
+          <h3>Graduate Research Supervisor</h3>
+          <span class="exp-meta">Boise State University • Summer 2025</span>
+          <p>Mentored 3 undergraduate students in child-computer interaction, supporting research design, data analysis, prototyping, and manuscript preparation.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Co-Instructor</h3>
+          <span class="exp-meta">Minot State University • UNIV 110 • Fall 2023</span>
+          <p>Assisted with lesson planning, grading, and in-class support for 38 students.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Peer Review Leader</h3>
+          <span class="exp-meta">Minot State University • MATH 210 • Fall 2022</span>
+          <p>Led weekly study sessions and office hours for Elementary Statistics.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Math Tutor</h3>
+          <span class="exp-meta">Minot State University • 2022–2023</span>
+          <p>Provided one-on-one and small-group tutoring in algebra, statistics, and calculus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="leadershipModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" onclick="closeModal('leadershipModal')" type="button">&times;</button>
+      <h2>Leadership</h2>
+
+      <div class="experience-modal">
+        <div class="exp-block">
+          <h3>Secretary</h3>
+          <span class="exp-meta">Nepali Students Association • Boise State University • 2024–2025</span>
+          <p>Managed organizational communication and meeting records while supporting planning and logistics for cultural events and student engagement initiatives.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Vice President of Internal Affairs</h3>
+          <span class="exp-meta">Student Government • Minot State University • 2022–2023</span>
+          <p>Oversaw internal administrative operations, supported marketing initiatives, and ensured organizational compliance across student government activities.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Student Activities Coordinator</h3>
+          <span class="exp-meta">MSU Life • Minot State University • 2021–2022</span>
+          <p>Coordinated marketing campaigns for campus events and contributed to student engagement programming, helping increase participation and visibility.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="campusWorkModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" onclick="closeModal('campusWorkModal')" type="button">&times;</button>
+      <h2>On-Campus Jobs</h2>
+
+      <div class="experience-modal">
+        <div class="exp-block">
+          <h3>Mathematics Tutor</h3>
+          <span class="exp-meta">Academic Support Center • Minot State University • 2022–2023</span>
+          <p>Provided one-on-one and group tutoring in algebra, statistics, and calculus.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>ASTEP Mentor</h3>
+          <span class="exp-meta">North Dakota Center for Persons with Disabilities • MSU • 2021–2022</span>
+          <p>Assisted students through structured support programs, helping individuals navigate academic and personal development challenges.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Social Media Coordinator</h3>
+          <span class="exp-meta">MSU Life • Minot State University • 2021–2022</span>
+          <p>Created and managed Instagram content for <a class="clean-link" href="https://www.instagram.com/msu_life/" target="_blank" rel="noopener noreferrer"><strong>MSU Life</strong></a>,  collaborated on event promotions, and contributed to campus-wide engagement initiatives.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Student Worker (Athletics)</h3>
+          <span class="exp-meta">Minot State University • 2021</span>
+          <p>Assisted with game-day operations, customer service, and crowd coordination, , ensuring smooth execution of athletic events in fast-paced environments.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Specialized Calculus Tutor</h3>
+          <span class="exp-meta">Power Center • Minot State University • Spring 2021</span>
+          <p>Delivered personalized calculus tutoring with accessibility-focused teaching strategies to support effective learning.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Peer Advisor</h3>
+          <span class="exp-meta">Career Services • Portland Community College • 2019–2020</span>
+          <p>Supported students in a high-traffic front desk environment by managing appointments, handling inquiries, and guiding them toward appropriate academic and career resources.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="extraModal" class="modal-overlay">
+    <div class="modal-card">
+      <button class="close-btn" onclick="closeModal('extraModal')" type="button">&times;</button>
+      <h2>Community Activities</h2>
+
+      <div class="experience-modal">
+        <div class="exp-block">
+          <h3>Nepali Night Host & Performer</h3>
+          <span class="exp-meta">Boise State University • 2024–2025</span>
+          <p>Hosted and performed in BSU Nepali Night cultural events, engaging diverse audiences and supporting stage execution.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>CHAARG Member</h3>
+          <span class="exp-meta">Boise State University • 2024–2025</span>
+          <p>Participated in group fitness sessions through CHAARG, including Pilates, hot yoga, and boxing alongside other members in a community-driven environment.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Design & Promotion Support</h3>
+          <span class="exp-meta">Magar Association USA • 2022</span>
+          <p>Designed promotional flyers for community events.</p>
+        </div>
+
+        <div class="exp-block">
+          <h3>Nepali Night Participation</h3>
+          <span class="exp-meta">Portland State University • 2019</span>
+          <p>Performed in PSU Nepali Night, representing cultural identity through dance and community engagement.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const topStrip = document.getElementById("top-strip");
+    const slides = document.querySelectorAll(".slide");
+    const dotsContainer = document.querySelector(".slider-dots");
+    const pauseButton = document.querySelector(".pause-btn");
+
+    let currentSlide = 0;
+    let autoSlide = null;
+    let isPaused = false;
+    let savedScrollY = 0;
+
+    slides.forEach((_, index) => {
+      const dot = document.createElement("button");
+      dot.className = index === 0 ? "dot active" : "dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Go to slide ${index + 1}`);
+      dot.addEventListener("click", () => showSlide(index));
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll(".dot");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+        dots[i].classList.toggle("active", i === index);
+      });
+      currentSlide = index;
+    }
+
+    function nextSlide() {
+      showSlide((currentSlide + 1) % slides.length);
+    }
+
+    function prevSlide() {
+      showSlide((currentSlide - 1 + slides.length) % slides.length);
+    }
+
+    function startSlider() {
+      stopSlider();
+      autoSlide = setInterval(nextSlide, 3500);
+    }
+
+    function stopSlider() {
+      if (autoSlide) clearInterval(autoSlide);
+    }
+
+    function toggleSliderPause() {
+      isPaused = !isPaused;
+      pauseButton.textContent = isPaused ? "Play" : "Pause";
+      isPaused ? stopSlider() : startSlider();
+    }
+
+function openModal(modalId) {
+  const modal = document.getElementById(modalId);
+  const topStrip = document.getElementById("top-strip");
+
+  if (!modal) return;
+
+  modal.classList.add("active");
+  document.body.classList.add("modal-open");
+
+  if (topStrip) {
+    topStrip.style.visibility = "hidden";
+    topStrip.style.pointerEvents = "none";
+  }
+}
+
+function closeModal(modalId) {
+  const modal = document.getElementById(modalId);
+  const topStrip = document.getElementById("top-strip");
+
+  if (!modal) return;
+
+  modal.classList.remove("active");
+  document.body.classList.remove("modal-open");
+
+  if (topStrip) {
+    topStrip.style.visibility = "";
+    topStrip.style.pointerEvents = "";
+  }
+}
+   
+    window.addEventListener("click", (event) => {
+      if (event.target.classList.contains("modal-overlay")) {
+        closeModal(event.target.id);
+      }
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        document.querySelectorAll(".modal-overlay.active").forEach((modal) => closeModal(modal.id));
+      }
+    });
+
+    startSlider();
+  </script>
+</body>
+</html>
